@@ -1,0 +1,94 @@
+.button {
+    width: 100%;
+    margin-top: 20px;
+    background-color: var(--color-brand-1);
+    color: var(--fixed-white);
+}
+
+.button:hover {
+    background-color: var(--color-brand-2);
+}
+
+.bt-summary {
+    width: max-content;
+    margin-right: 14px;
+    background-color: var(--color-grey-5);
+}
+
+
+
+.bt-padding {
+    padding: var(--padding);
+    height: 32px;
+    border-radius: var(--radius-1);
+    border: 1px solid #fff;
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    cursor: pointer;
+}
+
+.bt-modal {
+    padding: 4px 12px;
+    border-radius: var(--radius-2);
+    background-color: var(--color-grey-5);
+    border: none;
+}
+
+.p-select {
+    height: 32px;
+    padding: 0px 14px;
+    border-radius: var(--radius-1);
+    background-color: var(--fixed-white);
+    border: 1px solid var(--color-grey-5);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    color: var(--color-grey-2);
+    cursor: pointer;
+}
+
+.bt-add {
+    background-color: var(--color-brand-1);
+    color: var(--fixed-white);
+}
+
+.bt-cancel {
+    color: var(--color-grey-2);
+}
+
+.buton {
+    padding: 7px 14px;
+    width: 139px;
+    border-radius: var(--radius-1);
+    border: none;
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-1);
+    margin-top: 28px;
+    cursor: pointer;
+}
+
+.summary > .b-brand1 {
+    border: 1px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+}
+
+.bt-summary:hover {
+    border: 1px solid var(--color-brand-1);
+    color: var(--color-brand-1);
+}
+
+.trash {
+    width: 28px;
+    background-image: url(../assets/Component\ 2.png);
+    border: none;
+    cursor: pointer;
+}
+
+.trash:hover {
+    background-image: url(../assets/trash.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bt-add:hover {
+    background-color: var(--color-brand-2);
+}

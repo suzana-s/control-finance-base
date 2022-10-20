@@ -1,0 +1,23 @@
+.flex {
+    display: flex;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.gap {
+    gap: 31.75px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.gap-32 {
+    gap: 12px;
+}

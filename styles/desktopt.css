@@ -1,0 +1,32 @@
+@media (min-width: 700px){
+    header .header-flex {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-flex button {
+       margin-top: 0;
+       width: max-content;
+    }
+
+    .modal {
+        width: 428px;
+    }
+
+    .modal .wraper-desktop{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .wraper-desktop .title-modal {
+        margin-bottom: 0px;
+    }
+
+    .desktopt-block {
+        display: block;
+    }
+}
+
+
